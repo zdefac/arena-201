@@ -12,7 +12,7 @@ public class Guerreira extends Personagem {
     public String defender (int dano) {
 
         if (escudo > 0) {
-            escudo =- 1;
+            escudo -= 1;
             return nome + " defende!";
         } else if (escudo == 1) {
             escudo =- 1;
